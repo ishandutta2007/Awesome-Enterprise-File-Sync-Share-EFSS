@@ -9,10 +9,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-File-Sync-Share-EFSS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-File-Sync-Share-EFSS?style=social&color=white" alt="Repo Stars" /></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-File-Sync-Share-EFSS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-File-Sync-Share-EFSS/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -28,6 +30,8 @@
   - [🛠️ Specialized Sync Engines & Protocols](#️-specialized-sync-engines--protocols)
 - [🧭 EFSS Architecture & Evaluation Guide](#-efss-architecture--evaluation-guide)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⭐ Star History](#star-history)
 - [⚖️ Disclaimer & Compliance Notice](#️-disclaimer--compliance-notice)
 
 ---
@@ -290,6 +294,28 @@ Contributions are warmly encouraged! To propose a new SaaS solution or open-sour
    - For **SaaS**: Include product name, official link, starting price, free tier/trial limits, company size (valuation/revenue), and core enterprise highlights.
    - For **Open-Source**: Include repository name, link, `style=social&color=white` GitHub star badge linking to the stargazers page, license, and technical summary. Keep the list sorted by star count.
 4. **Submit a Pull Request** with a concise summary of changes.
+
+---
+
+## 💖 Support
+
+Thank you for checking out **Awesome Enterprise File Sync & Share (EFSS)**! If this repository helped you in your architecture decisions, open-source evaluations, or enterprise deployments, please consider supporting the project:
+
+- ⭐ **Star** this repository to show your appreciation and help others discover it.
+- 🍴 **Fork** and contribute updates, new EFSS platforms, or pricing revisions.
+- 📢 **Share** this collection with your network, DevOps teams, and sysadmin communities.
+- ☕ **Buy me a coffee / Sponsor:** Support ongoing maintenance, research, and open-source curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-File-Sync-Share-EFSS&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-File-Sync-Share-EFSS&type=date&legend=top-left)
 
 ---
 
