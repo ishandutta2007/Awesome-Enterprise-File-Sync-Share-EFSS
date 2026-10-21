@@ -120,11 +120,11 @@ Self-hosted and open-source EFSS systems empower enterprises to take complete ow
 
 ### ⭐ Open-Source Ecosystem (Ranked by Stars)
 
-The following repositories are **sorted strictly in descending order by GitHub star count**. Each project includes a live star badge linking to its GitHub stargazers page.
+The following repositories are **sorted strictly in descending order by GitHub Stars_Count**. Each project includes a live Stars_Badge linking to its GitHub stargazers page.
 
 ---
 
-#### 1. [Syncthing](https://github.com/syncthing/syncthing) [![GitHub stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers)
+#### 1. [Syncthing](https://github.com/syncthing/syncthing) [![GitHub_Stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers)
 - **License:** MPL-2.0 | **Language:** Go
 - **Summary:** Continuous, peer-to-peer decentralized file synchronization protocol and daemon. Synchronizes files directly between devices over local LAN or across the internet via encrypted relay connections—with **no centralized server holding your data**.
 - **Key Features:** TLS cryptographic authentication, automatic NAT traversal, UPnP, low resource footprint, cross-platform (Linux, Windows, macOS, Android, BSD).
@@ -132,7 +132,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 2. [Rclone](https://github.com/rclone/rclone) [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
+#### 2. [Rclone](https://github.com/rclone/rclone) [![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
 - **License:** MIT | **Language:** Go
 - **Summary:** Known as "The Swiss Army knife of cloud storage". Rclone is a command-line program and virtual filesystem engine to sync, upload, download, and mount files across over 70 cloud object stores and EFSS protocols.
 - **Key Features:** Supports S3, Google Cloud Storage, Azure Blob, OneDrive, Dropbox, SFTP, WebDAV, and FTP; includes client-side cryptographic hashing, chunked transfers, bandwidth throttling, and `rclone mount` virtual drive FUSE support.
@@ -140,7 +140,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 3. [Nextcloud Server](https://github.com/nextcloud/server) [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
+#### 3. [Nextcloud Server](https://github.com/nextcloud/server) [![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
 - **License:** AGPL-3.0 | **Language:** PHP / JavaScript
 - **Summary:** The most comprehensive and widely deployed open-source enterprise collaboration suite in the world. Positioned as the sovereign European open-source counterweight to Microsoft 365 and Google Workspace.
 - **Key Features:** Nextcloud Files (granular sync & share), Nextcloud Office (Collabora / OnlyOffice live document editing), Nextcloud Talk (secure video calls & chat), Nextcloud Groupware (calendar & mail), native desktop/mobile clients, SAML 2.0 / LDAP / OIDC SSO, and HIPAA/GDPR audit logging.
@@ -148,7 +148,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 4. [File Browser](https://github.com/filebrowser/filebrowser) [![GitHub stars](https://img.shields.io/github/stars/filebrowser/filebrowser?style=social&color=white)](https://github.com/filebrowser/filebrowser/stargazers)
+#### 4. [File Browser](https://github.com/filebrowser/filebrowser) [![GitHub_Stars](https://img.shields.io/github/stars/filebrowser/filebrowser?style=social&color=white)](https://github.com/filebrowser/filebrowser/stargazers)
 - **License:** Apache-2.0 | **Language:** Go / Vue.js
 - **Summary:** Lightweight, blazingly fast, single-binary file management interface within a specified directory. Provides a clean web application interface to navigate, edit, upload, and share files.
 - **Key Features:** Multi-user management with custom permission flags, public link sharing with expiration dates and passwords, integrated code/text editor, media player, and Docker ready.
@@ -156,7 +156,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 5. [Cloudreve](https://github.com/cloudreve/cloudreve) [![GitHub stars](https://img.shields.io/github/stars/cloudreve/cloudreve?style=social&color=white)](https://github.com/cloudreve/cloudreve/stargazers)
+#### 5. [Cloudreve](https://github.com/cloudreve/cloudreve) [![GitHub_Stars](https://img.shields.io/github/stars/cloudreve/cloudreve?style=social&color=white)](https://github.com/cloudreve/cloudreve/stargazers)
 - **License:** GPL-3.0 | **Language:** Go / React
 - **Summary:** Modern self-hosted file management and sharing system with unified multi-storage provider abstraction.
 - **Key Features:** Bridges local disks, remote WebDAV servers, AWS S3, Aliyun OSS, Tencent COS, and OneDrive into a single unified web console; supports chunked resumable uploads, WebDAV client access, and custom user quotas.
@@ -164,7 +164,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 6. [Seafile](https://github.com/haiwen/seafile) [![GitHub stars](https://img.shields.io/github/stars/haiwen/seafile?style=social&color=white)](https://github.com/haiwen/seafile/stargazers)
+#### 6. [Seafile](https://github.com/haiwen/seafile) [![GitHub_Stars](https://img.shields.io/github/stars/haiwen/seafile?style=social&color=white)](https://github.com/haiwen/seafile/stargazers)
 - **License:** AGPL-3.0 (Server Core) / Apache-2.0 | **Language:** C / Python / Go
 - **Summary:** High-performance, enterprise-grade file synchronization platform built on a Git-like content-addressable library model. Renowned for raw sync speed, reliability, and block-level deduplication.
 - **Key Features:** Client-side encrypted libraries, SeaDrive virtual disk driver for on-demand caching, SeaSearch full-text document indexing, Kanban and gallery database views, and AI-assisted metadata extraction.
@@ -172,7 +172,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 7. [Dufs](https://github.com/sigoden/dufs) [![GitHub stars](https://img.shields.io/github/stars/sigoden/dufs?style=social&color=white)](https://github.com/sigoden/dufs/stargazers)
+#### 7. [Dufs](https://github.com/sigoden/dufs) [![GitHub_Stars](https://img.shields.io/github/stars/sigoden/dufs?style=social&color=white)](https://github.com/sigoden/dufs/stargazers)
 - **License:** Apache-2.0 / MIT | **Language:** Rust
 - **Summary:** Ultra-fast, lightweight, all-in-one file server written in Rust, supporting static file serving, authenticated uploads, search, and full WebDAV synchronization.
 - **Key Features:** Zero runtime dependencies, single binary distribution, path-based access control rules, full-text searching, range requests for media streaming, and negligible CPU/RAM footprint.
@@ -180,7 +180,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 8. [ownCloud Core](https://github.com/owncloud/core) [![GitHub stars](https://img.shields.io/github/stars/owncloud/core?style=social&color=white)](https://github.com/owncloud/core/stargazers)
+#### 8. [ownCloud Core](https://github.com/owncloud/core) [![GitHub_Stars](https://img.shields.io/github/stars/owncloud/core?style=social&color=white)](https://github.com/owncloud/core/stargazers)
 - **License:** AGPL-3.0 | **Language:** PHP / JavaScript
 - **Summary:** The original pioneer in self-hosted EFSS solutions. Provides a proven, mature file synchronization engine with cross-platform clients and a vast repository of enterprise extensions.
 - **Key Features:** WebDAV API, desktop and mobile clients, federated cloud sharing, LDAP/Active Directory integration, and Collabora/OnlyOffice online editing.
@@ -188,7 +188,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 9. [OnionShare](https://github.com/onionshare/onionshare) [![GitHub stars](https://img.shields.io/github/stars/onionshare/onionshare?style=social&color=white)](https://github.com/onionshare/onionshare/stargazers)
+#### 9. [OnionShare](https://github.com/onionshare/onionshare) [![GitHub_Stars](https://img.shields.io/github/stars/onionshare/onionshare?style=social&color=white)](https://github.com/onionshare/onionshare/stargazers)
 - **License:** GPL-3.0 | **Language:** Python
 - **Summary:** Next-generation security tool that enables secure and anonymous file sharing, chat hosting, and web publishing directly over the Tor network.
 - **Key Features:** End-to-end encrypted ephemeral onion services, zero third-party metadata footprint, password protection, and automated self-closing download links.
@@ -196,7 +196,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 10. [OpenCloud](https://github.com/opencloud-eu/opencloud) [![GitHub stars](https://img.shields.io/github/stars/opencloud-eu/opencloud?style=social&color=white)](https://github.com/opencloud-eu/opencloud/stargazers)
+#### 10. [OpenCloud](https://github.com/opencloud-eu/opencloud) [![GitHub_Stars](https://img.shields.io/github/stars/opencloud-eu/opencloud?style=social&color=white)](https://github.com/opencloud-eu/opencloud/stargazers)
 - **License:** Apache-2.0 | **Language:** Go
 - **Summary:** Cloud-native file collaboration and synchronization server engineered specifically to meet European data sovereignty standards and high-concurrency cloud environments.
 - **Key Features:** Written in Go with minimal container overhead, modular pluggable storage engines, Docker and Kubernetes-native configurations, and WebDAV support.
@@ -204,7 +204,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 11. [Pydio Cells](https://github.com/pydio/cells) [![GitHub stars](https://img.shields.io/github/stars/pydio/cells?style=social&color=white)](https://github.com/pydio/cells/stargazers)
+#### 11. [Pydio Cells](https://github.com/pydio/cells) [![GitHub_Stars](https://img.shields.io/github/stars/pydio/cells?style=social&color=white)](https://github.com/pydio/cells/stargazers)
 - **License:** AGPL-3.0 | **Language:** Go
 - **Summary:** Enterprise Document Management and File Sharing platform built from the ground up as a cloud-native microservices architecture in Go.
 - **Key Features:** "Cells" workspace paradigm with fine-grained role-based access control (RBAC), OpenID Connect (OIDC) identity provider integration, advanced metadata tagging, detailed audit trails, and automated security policies.
@@ -212,7 +212,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 12. [ownCloud Infinite Scale (oCIS)](https://github.com/owncloud/ocis) [![GitHub stars](https://img.shields.io/github/stars/owncloud/ocis?style=social&color=white)](https://github.com/owncloud/ocis/stargazers)
+#### 12. [ownCloud Infinite Scale (oCIS)](https://github.com/owncloud/ocis) [![GitHub_Stars](https://img.shields.io/github/stars/owncloud/ocis?style=social&color=white)](https://github.com/owncloud/ocis/stargazers)
 - **License:** Apache-2.0 | **Language:** Go
 - **Summary:** Complete next-generation rewrite of ownCloud. Built as a cloud-native, microservices-driven platform in Go, discarding the legacy PHP/database architecture in favor of extreme sync scalability.
 - **Key Features:** "Spaces" concept for project-centric data governance, metadata stored alongside data (no traditional SQL bottleneck), decoupled microservices, and instant Collabora/OnlyOffice document editing.
@@ -220,7 +220,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 13. [Sync-in Server](https://github.com/Sync-in/server) [![GitHub stars](https://img.shields.io/github/stars/Sync-in/server?style=social&color=white)](https://github.com/Sync-in/server/stargazers)
+#### 13. [Sync-in Server](https://github.com/Sync-in/server) [![GitHub_Stars](https://img.shields.io/github/stars/Sync-in/server?style=social&color=white)](https://github.com/Sync-in/server/stargazers)
 - **License:** AGPL-3.0 | **Language:** Go / Vue.js
 - **Summary:** Actively maintained open-source file storage and synchronization server supported by the Docker-Sponsored Open Source Program.
 - **Key Features:** Built-in OIDC / LDAP enterprise authentication, MFA enforcement, "Spaces" collaborative shared folders, Collabora and OnlyOffice online office integration, full-text search, and WebDAV protocol.
@@ -228,7 +228,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 14. [Cozy Stack](https://github.com/linagora/cozy-stack) [![GitHub stars](https://img.shields.io/github/stars/linagora/cozy-stack?style=social&color=white)](https://github.com/linagora/cozy-stack/stargazers)
+#### 14. [Cozy Stack](https://github.com/linagora/cozy-stack) [![GitHub_Stars](https://img.shields.io/github/stars/linagora/cozy-stack?style=social&color=white)](https://github.com/linagora/cozy-stack/stargazers)
 - **License:** AGPL-3.0 | **Language:** Go
 - **Summary:** Core server for Cozy Cloud, providing a personal and team digital cloud platform. Backed by CouchDB for resilient metadata and document indexing.
 - **Key Features:** Client-side file syncing, virtual file mount, data connectors for automated invoice and document fetching, and strong privacy controls.
@@ -236,7 +236,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 15. [bewCloud](https://github.com/bewcloud/bewcloud) [![GitHub stars](https://img.shields.io/github/stars/bewcloud/bewcloud?style=social&color=white)](https://github.com/bewcloud/bewcloud/stargazers)
+#### 15. [bewCloud](https://github.com/bewcloud/bewcloud) [![GitHub_Stars](https://img.shields.io/github/stars/bewcloud/bewcloud?style=social&color=white)](https://github.com/bewcloud/bewcloud/stargazers)
 - **License:** AGPL-3.0 | **Language:** TypeScript / Node.js
 - **Summary:** Modern, minimalist self-hosted alternative to Nextcloud and ownCloud, consolidating file sync, markdown notes, and photo galleries into one lightweight package.
 - **Key Features:** Clean web UI, Docker-first distribution, mobile-friendly design, low memory overhead, and straightforward file sharing links.
@@ -244,7 +244,7 @@ The following repositories are **sorted strictly in descending order by GitHub s
 
 ---
 
-#### 16. [Samba](https://github.com/samba-team/samba) [![GitHub stars](https://img.shields.io/github/stars/samba-team/samba?style=social&color=white)](https://github.com/samba-team/samba/stargazers)
+#### 16. [Samba](https://github.com/samba-team/samba) [![GitHub_Stars](https://img.shields.io/github/stars/samba-team/samba?style=social&color=white)](https://github.com/samba-team/samba/stargazers)
 - **License:** GPL-3.0 | **Language:** C
 - **Summary:** The gold standard Unix/Linux software suite that provides seamless SMB/CIFS networking, file, and print services for Windows, macOS, and Linux clients.
 - **Key Features:** Active Directory Domain Controller (AD DC) emulation, POSIX ACL mapping, Winbind integration, high-throughput network file sharing, and Kerberos authentication.
@@ -292,7 +292,7 @@ Contributions are warmly encouraged! To propose a new SaaS solution or open-sour
 2. **Create a branch:** `git checkout -b feature/add-new-efss-tool`.
 3. **Add entry in `README.md`:**
    - For **SaaS**: Include product name, official link, starting price, free tier/trial limits, company size (valuation/revenue), and core enterprise highlights.
-   - For **Open-Source**: Include repository name, link, `style=social&color=white` GitHub star badge linking to the stargazers page, license, and technical summary. Keep the list sorted by star count.
+   - For **Open-Source**: Include repository name, link, `style=social&color=white` GitHub Stars_Badge linking to the stargazers page, license, and technical summary. Keep the list sorted by Stars_Count.
 4. **Submit a Pull Request** with a concise summary of changes.
 
 ---
