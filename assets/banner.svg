@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background: #090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#081026" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Filters for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-10px) scale(1.04); }
+      }
+      @keyframes floatOpposite {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(8px) scale(0.96); }
+      }
+      @keyframes pulseRing {
+        0% { r: 18px; opacity: 0.8; }
+        50% { r: 32px; opacity: 0.15; }
+        100% { r: 18px; opacity: 0.8; }
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 200; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes dotPulse {
+        0%, 100% { opacity: 0.3; transform: scale(0.9); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      @keyframes shimmer {
+        0% { opacity: 0.4; }
+        50% { opacity: 0.9; }
+        100% { opacity: 0.4; }
+      }
+      .orb-1 { animation: floatSlow 8s ease-in-out infinite; transform-origin: 950px 140px; }
+      .orb-2 { animation: floatOpposite 9s ease-in-out infinite; transform-origin: 200px 280px; }
+      .sync-line { stroke-dasharray: 8 6; animation: dashFlow 12s linear infinite; }
+      .sync-line-fast { stroke-dasharray: 6 4; animation: dashFlow 6s linear infinite; }
+      .pulse-circle { animation: pulseRing 3.5s ease-in-out infinite; }
+      .shimmer-text { animation: shimmer 4s ease-in-out infinite; }
+      .dot-live { animation: dotPulse 2s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+
+  <!-- Deep Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Subtle Dynamic Background Elements (Kept behind foreground text) -->
+  <g opacity="0.25">
+    <!-- Grid lines -->
+    <path d="M0,60 L1200,60 M0,120 L1200,120 M0,180 L1200,180 M0,240 L1200,240 M0,300 L1200,300" stroke="#334155" stroke-width="0.5" stroke-dasharray="4 6" />
+    <path d="M150,0 L150,360 M300,0 L300,360 M450,0 L450,360 M600,0 L600,360 M750,0 L750,360 M900,0 L900,360 M1050,0 L1050,360" stroke="#334155" stroke-width="0.5" stroke-dasharray="4 6" />
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <circle class="orb-1" cx="980" cy="120" r="140" fill="url(#glowGrad)" filter="url(#glow)" />
+  <circle class="orb-2" cx="180" cy="240" r="110" fill="#38bdf8" opacity="0.08" filter="url(#glow)" />
+  <circle cx="600" cy="40" r="120" fill="#818cf8" opacity="0.06" filter="url(#glow)" />
+
+  <!-- Dynamic File Sync Network Flow Graphic on Right Side (Far from text) -->
+  <g transform="translate(150, 0)">
+    <!-- Connection Paths with animated stroke-dashoffset -->
+    <path class="sync-line" d="M780,100 C830,130 840,190 890,210" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.5" />
+    <path class="sync-line-fast" d="M780,100 C740,160 760,220 720,250" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.4" />
+    <path class="sync-line" d="M890,210 C940,220 950,150 970,120" fill="none" stroke="#c084fc" stroke-width="1.8" opacity="0.5" />
+    <path class="sync-line-fast" d="M720,250 C800,280 850,260 890,210" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.3" />
+
+    <!-- Pulsing Radar / Node Waves -->
+    <circle class="pulse-circle" cx="780" cy="100" r="18" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <circle class="pulse-circle" cx="890" cy="210" r="18" fill="none" stroke="#c084fc" stroke-width="1.5" style="animation-delay: 1.2s;" />
+
+    <!-- Node 1: Cloud Storage Hub -->
+    <g transform="translate(780, 100)">
+      <circle cx="0" cy="0" r="22" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" filter="url(#softGlow)" />
+      <path d="M-8,3 C-8,-1 -5,-4 -1,-4 C0,-7 4,-8 7,-5 C9,-5 11,-3 11,0 C12,1 12,4 10,5 C8,6 -6,6 -8,3 Z" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linejoin="round" />
+      <text x="0" y="34" fill="#94a3b8" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.5">CLOUD HUB</text>
+    </g>
+
+    <!-- Node 2: Sovereign Self-Hosted Server -->
+    <g transform="translate(890, 210)">
+      <circle cx="0" cy="0" r="24" fill="#0f172a" stroke="#c084fc" stroke-width="2.5" filter="url(#softGlow)" />
+      <!-- Server Rack Icon -->
+      <rect x="-9" y="-9" width="18" height="6" rx="1.5" fill="none" stroke="#c084fc" stroke-width="1.3" />
+      <circle cx="4" cy="-6" r="1" fill="#34d399" />
+      <rect x="-9" y="-1" width="18" height="6" rx="1.5" fill="none" stroke="#c084fc" stroke-width="1.3" />
+      <circle cx="4" cy="2" r="1" fill="#34d399" />
+      <rect x="-9" y="7" width="18" height="6" rx="1.5" fill="none" stroke="#c084fc" stroke-width="1.3" />
+      <circle cx="4" cy="10" r="1" fill="#34d399" />
+      <text x="0" y="37" fill="#94a3b8" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.5">SELF-HOSTED</text>
+    </g>
+
+    <!-- Node 3: Encrypted Endpoint / Client -->
+    <g transform="translate(720, 250)">
+      <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#818cf8" stroke-width="2" filter="url(#softGlow)" />
+      <!-- Shield / Lock icon -->
+      <path d="M-5,-5 L5,-5 L5,0 C5,5 0,8 0,8 C0,8 -5,5 -5,0 Z" fill="none" stroke="#818cf8" stroke-width="1.4" />
+      <text x="0" y="30" fill="#94a3b8" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="0.5">E2EE CLIENT</text>
+    </g>
+
+    <!-- Node 4: S3 / Object Store -->
+    <g transform="translate(970, 120)">
+      <circle cx="0" cy="0" r="17" fill="#0f172a" stroke="#0ea5e9" stroke-width="1.8" filter="url(#softGlow)" />
+      <ellipse cx="0" cy="-4" rx="7" ry="2.5" fill="none" stroke="#0ea5e9" stroke-width="1.2" />
+      <path d="M-7,-4 L-7,3 C-7,4.5 0,6 0,6 C0,6 7,4.5 7,3 L7,-4" fill="none" stroke="#0ea5e9" stroke-width="1.2" />
+      <text x="0" y="28" fill="#94a3b8" font-size="9" font-weight="600" text-anchor="middle" letter-spacing="0.5">OBJECT S3</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Perfectly positioned, crisp, completely legible, high z-order -->
+  <g transform="translate(70, 0)">
+    <!-- Category Pill Badge -->
+    <g transform="translate(0, 52)">
+      <rect x="0" y="0" width="310" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+      <!-- Pulsing Green Status Indicator -->
+      <circle class="dot-live" cx="16" cy="14" r="4.5" fill="#10b981" />
+      <text x="30" y="18" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1.2">ENTERPRISE FILE SYNC &amp; SHARE (EFSS)</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="125" fill="#f8fafc" font-size="36" font-weight="800" letter-spacing="-0.8">
+      Awesome <tspan fill="url(#accentGrad)">Enterprise File Sync &amp; Share</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="162" fill="#94a3b8" font-size="16" font-weight="400" letter-spacing="0.1">
+      Curated Landscape of Secure File Collaboration, Self-Hosted Storage &amp; Data Sovereignty
+    </text>
+
+    <!-- Description line -->
+    <text x="0" y="194" fill="#64748b" font-size="13.5" font-weight="400">
+      Enterprise SaaS Market Giants vs. Battle-Tested Open-Source Self-Hosted Ecosystems
+    </text>
+
+    <!-- Interactive / Feature Pills in Foreground -->
+    <g transform="translate(0, 235)">
+      <!-- Pill 1: E2EE -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="165" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <rect x="0" y="0" width="3" height="34" rx="1.5" fill="#38bdf8" />
+        <text x="14" y="21" fill="#e2e8f0" font-size="12" font-weight="600">🛡️ Zero-Knowledge E2EE</text>
+      </g>
+
+      <!-- Pill 2: Self-Hosted -->
+      <g transform="translate(180, 0)">
+        <rect x="0" y="0" width="160" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <rect x="0" y="0" width="3" height="34" rx="1.5" fill="#818cf8" />
+        <text x="14" y="21" fill="#e2e8f0" font-size="12" font-weight="600">🏠 Sovereign Self-Host</text>
+      </g>
+
+      <!-- Pill 3: Compliance -->
+      <g transform="translate(355, 0)">
+        <rect x="0" y="0" width="165" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <rect x="0" y="0" width="3" height="34" rx="1.5" fill="#c084fc" />
+        <text x="14" y="21" fill="#e2e8f0" font-size="12" font-weight="600">📋 Enterprise Auditing</text>
+      </g>
+
+      <!-- Pill 4: S3 & Hybrid -->
+      <g transform="translate(535, 0)">
+        <rect x="0" y="0" width="150" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+        <rect x="0" y="0" width="3" height="34" rx="1.5" fill="#34d399" />
+        <text x="14" y="21" fill="#e2e8f0" font-size="12" font-weight="600">⚡ S3 / Multi-Cloud</text>
+      </g>
+    </g>
+
+    <!-- Bottom metadata info -->
+    <g transform="translate(0, 305)">
+      <text x="0" y="0" fill="#475569" font-size="11.5" font-weight="500">
+        📊 Pricing &amp; Tier Audits • 🌟 Live GitHub Star Badges • ⚖️ Market Valuation Analysis • 🚀 Fully Open-Source
+      </text>
+    </g>
+  </g>
+</svg>
